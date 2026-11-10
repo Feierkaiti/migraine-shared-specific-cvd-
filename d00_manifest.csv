@@ -1,0 +1,35 @@
+name,group,source,url,cases,controls,note
+FG_MIG,indicator,FinnGen R12,https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_G6_MIGRAINE.gz,26894,374605,ICD-coded migraine
+FG_MIGTRIP,sensitivity,FinnGen R12,https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_MIGRAINE_TRIPTAN.gz,55116,445232,migraine incl. single triptan purchase
+FG_MA,sensitivity,FinnGen R12,https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_G6_MIGRAINE_WITH_AURA.gz,11757,374605,migraine with aura
+FG_MO,sensitivity,FinnGen R12,https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_G6_MIGRAINE_NO_AURA.gz,9690,374605,migraine without aura
+FG_ANX,sensitivity,FinnGen R12,https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_F5_ALLANXIOUS.gz,35875,444414,all anxiety disorders
+FG_IBS,sensitivity,FinnGen R12,https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_K11_IBS.gz,13268,394725,irritable bowel syndrome
+MDD25,indicator,PGC MDD2025 (no 23andMe; EUR),https://ndownloader.figshare.com/files/51487019,,,depression
+MDD25_CLIN,sensitivity,PGC MDD2025 clinical/interview cohorts (EUR),https://ndownloader.figshare.com/files/51487013,,,depression clinical cohorts
+BACK,indicator,Pan-UKB 6159-4,https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/categorical-6159-both_sexes-4.tsv.bgz,106918,312670,back pain in last month (questionnaire)
+SBP,outcome,Pan-UKB 4080,https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/continuous-4080-both_sexes-irnt.tsv.bgz,396663,,systolic blood pressure (N in cases column)
+DBP,outcome,Pan-UKB 4079,https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/continuous-4079-both_sexes-irnt.tsv.bgz,396667,,diastolic blood pressure (N in cases column)
+EDU,covariate,Pan-UKB 6138-1,https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/categorical-6138-both_sexes-1.tsv.bgz,131540,284776,college or university degree
+SMK,covariate,Pan-UKB 20160,https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/categorical-20160-both_sexes-20160.tsv.bgz,253507,165353,ever smoked
+UKB_T2D,outcome,Pan-UKB phecode 250.2,https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-250.2-both_sexes.tsv.bgz,22768,396181,type 2 diabetes
+UKB_IHD,outcome,Pan-UKB phecode 411,https://pan-ukb-us-east-1.s3.amazonaws.com/sumstats_flat_files/phecode-411-both_sexes.tsv.bgz,37672,382052,ischaemic heart disease
+MVP_MIG,indicator,MVP (Verma 2024) GCST90475837,http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90475001-GCST90476000/GCST90475837/GCST90475837.tsv.gz,31836,405831,phecode 340
+CAD,outcome,Aragam 2022 GCST90132314,http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90132001-GCST90133000/GCST90132314/harmonised/GCST90132314.h.tsv.gz,181522,984168,coronary artery disease
+FIB,indicator,Kerrebijn 2026 GCST90838603,http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90838001-GCST90839000/GCST90838603/harmonised/GCST90838603.h.tsv.gz,,,fibromyalgia
+IS,outcome,GIGASTROKE GCST90104540,http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90104001-GCST90105000/GCST90104540/GCST90104540_buildGRCh37.tsv.gz,62100,1234808,ischaemic stroke
+AS,outcome,GIGASTROKE GCST90104539,http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90104001-GCST90105000/GCST90104539/GCST90104539_buildGRCh37.tsv.gz,73652,1234808,any stroke
+CES,outcome,GIGASTROKE GCST90104541,http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90104001-GCST90105000/GCST90104541/GCST90104541_buildGRCh37.tsv.gz,10804,1234808,cardioembolic stroke
+LAS,outcome,GIGASTROKE GCST90104542,http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90104001-GCST90105000/GCST90104542/GCST90104542_buildGRCh37.tsv.gz,6399,1234808,large artery stroke
+SVS,outcome,GIGASTROKE GCST90104543,http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90104001-GCST90105000/GCST90104543/GCST90104543_buildGRCh37.tsv.gz,6811,1234808,small vessel stroke
+HF,outcome,HERMES 2025 GCST90728695,http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90728001-GCST90729000/GCST90728695/GCST90728695.tsv.gz,139533,1568809,heart failure
+AF,outcome,Nielsen 2018 GCST006414,http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST006001-GCST007000/GCST006414/nielsen-thorolfsdottir-willer-NG2018-AFib-gwas-summary-statistics.tbl.gz,60620,970216,atrial fibrillation
+MVP_MA,sensitivity,MVP GCST90477543,http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90477001-GCST90478000/GCST90477543/GCST90477543.tsv.gz,4445,441492,migraine with aura
+CHOQ,sensitivity,Choquet 2021 GCST90000016,http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90000001-GCST90001000/GCST90000016/harmonised/GCST90000016.h.tsv.gz,26052,487214,UKB+GERA migraine (multi-ancestry file)
+FG_CHD,outcome-sens,FinnGen R12,https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_I9_CHD.gz,56650,443698,major coronary heart disease event
+FG_STR,outcome-sens,FinnGen R12,https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_I9_STR.gz,34110,450023,stroke excluding SAH
+FG_T2D,outcome-sens,FinnGen R12,https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_T2D.gz,82878,403489,type 2 diabetes
+FG_HTN,outcome-sens,FinnGen R12,https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_I9_HYPTENS.gz,154630,345634,hypertension
+HDL,outcome,GLGC 2021 EUR,https://csg.sph.umich.edu/willer/public/glgc-lipids2021/results/ancestry_specific/HDL_INV_EUR_HRC_1KGP3_others_ALL.meta.singlevar.results.gz,,,HDL cholesterol
+TG,outcome,GLGC 2021 EUR,https://csg.sph.umich.edu/willer/public/glgc-lipids2021/results/ancestry_specific/logTG_INV_EUR_HRC_1KGP3_others_ALL.meta.singlevar.results.gz,,,log triglycerides
+BMI,outcome,GIANT+UKB 2018,https://portals.broadinstitute.org/collaboration/giant/images/c/c8/Meta-analysis_Locke_et_al%2BUKBiobank_2018_UPDATED.txt.gz,,,body mass index
